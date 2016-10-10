@@ -1,0 +1,90 @@
+*{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    box-sizing : border-box;
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
+
+
+*{
+    /*outline: 1px solid red !important;*/
+    font-family: Verdana, sans-serif;
+}
+
+.container-fluid{
+    margin-top: 40px;
+}
+
+.para{
+    font-size: 16px;
+    padding-left: 5px;
+    line-height: 200%;
+    /*padding-right: 10px;*/
+    /*padding-top: 25px;*/
+}
+
+
+.first{
+    margin-bottom: 9px;
+    padding-top: 21px;
+    padding-right: 1px;
+}
+
+
+.main-title{
+    color: #666;
+    font-size: 48px;
+    margin-top: 26px;
+    margin-bottom: 14px;
+    padding-left: 5px;
+}
+
+.subtitle{
+    color: #f07c17;
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 24px;
+    padding-left: 10px;
+}
+
+.list-title{
+    margin-top: 28px;
+    margin-left: 20px;
+}
+
+.list-box{
+    border: 1px solid;
+    margin-left: 24px;
+    margin-right: 8px;
+    margin-top: 8px;
+    padding-bottom: 34px;
+
+}
+
+.list-div{
+    padding-top: 20px;
+    padding-left: 10px;
+    line-height: 31px;
+    font-size: 15px;
+
+}
+
+.test{
+    /*opacity: 0.3;*/
+    margin: 5px 8px 0px 8px;
+    height: 375px;
+    width: 400px; 
+    margin-top: 18px;
+}
